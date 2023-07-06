@@ -1,0 +1,46 @@
+.hero-text{
+    font-size:52px;
+}
+.hero-subtext{
+
+    font-size:18px;
+}
+
+.hero{
+    font-size:20px;
+}
+.about-text1{
+    font-size:20px
+}
+.about-text2{
+    font-size:18px
+}
+.about-bold{
+    font-size:32px
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .hero-text{
+        font-size:32px;
+    }
+    .hero-subtext{
+
+        font-size:14px;
+    }
+    .hero{
+        font-size:20px;
+    }
+
+    .about-text1{
+        font-size:18px
+    }
+    .about-text2{
+        font-size:16px
+    }
+    .about-bold{
+        font-size:24px
+    }
+    
+  }

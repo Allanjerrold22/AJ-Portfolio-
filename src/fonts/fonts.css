@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./Syne-Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./Syne-Bold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 800;
+    src: url('./Syne-ExtraBold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./Syne-Medium.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 600;
+    src: url('./Syne-SemiBold.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Raleway';
+    font-style: Bold;
+    font-weight: 700;
+    src: url('./Raleway-Bold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Raleway';
+    font-style: Black;
+    font-weight: 900;
+    src: url('./Raleway-Black.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Raleway';
+    font-style: Regular;
+    font-weight: 400;
+    src: url('./Raleway-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Raleway';
+    font-style: Medium;
+    font-weight: 500;
+    src: url('./Raleway-Medium.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Raleway';
+    font-style: Semibold;
+    font-weight: 600;
+    src: url('./Raleway-SemiBold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Raleway';
+    font-style: ExtraLight;
+    font-weight: 200;
+    src: url('./Raleway-ExtraLight.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Raleway';
+    font-style: ExtraBold;
+    font-weight: 800;
+    src: url('./Raleway-ExtraBold.ttf') format('truetype');
+  }
+  
+  

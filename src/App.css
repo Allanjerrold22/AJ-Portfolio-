@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+
+
+.white-content {
+  background: #e4e4e4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper .switch {
+  position: absolute;
+  right:100px;
+  top: 35px;
+  transform: translate(-50%, -50%);
+  width: 64px;
+  height: 30px;
+}
+.wrapper .switch input {
+  display: none;
+}
+.wrapper .switch .wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 40px;
+  background-color:#656565;
+  width: 64px;
+  height: 30px;
+  display: none;
+}
+
+
+.wrapper .switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #9E8CBC;
+  transition: all 1.4s;
+  border-radius: 50px;
+  z-index: 100;
+  overflow: hidden;
+}
+.wrapper .switch .slider:before,
+
+.wrapper .switch .slider:after {
+  position: absolute;
+  content: '';
+  height: 24px;
+  width: 24px;
+  left: 5px;
+  top:3px;
+  bottom: 5px;
+  border-radius: 30px;
+  background-color: #fff;
+}
+.wrapper .switch .slider:before {
+  transition: 0.4s;
+}
+.wrapper .switch .slider:after {
+  transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+.wrapper .switch input:checked + .slider {
+  background-color: transparent;
+}
+
+.wrapper .switch input:checked ~ .wave {
+  background-color: #252525;
+  display: block;
+  filter: url(#wave);
+}
+.wrapper .switch input:checked + .slider:before {
+  transform: translateX(32px);
+}
+.wrapper .switch input:checked + .slider:after {
+  transform: translateX(32px);
+}
+
+
+
+
+
+
+
