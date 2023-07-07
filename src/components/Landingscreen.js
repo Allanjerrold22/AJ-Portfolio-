@@ -31,7 +31,7 @@ import {
         )}
       </ThemeContext.Consumer> */}
       
-        <Nav/>
+        {/* <Nav/> */}
         <Herosection/>
         <About/>
         

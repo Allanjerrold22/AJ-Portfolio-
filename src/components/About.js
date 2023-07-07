@@ -34,15 +34,15 @@ const About = () => {
             </div>
             <p className="about-bold" style={{margin:0,fontFamily:'Raleway',fontWeight:800,color:'#656565',textAlign:'center',marginTop:55,textDecoration:'underline'}}>Education</p>
 
-            <div className="about-text-container" style={{width:'80%',height:360,display:'flex',justifyContent:'space-evenly',flexDirection:'column',marginLeft:'1em',marginTop:60}}>
+            <div className="about-text-container" style={{width:'80%',height:400,display:'flex',justifyContent:'space-evenly',flexDirection:'column',marginLeft:'1em',marginTop:60}}>
 
               <div className="about-content" style={{}}>
       
               <p className="about-text1" style={{margin:0,fontFamily:'Raleway',fontWeight:400,color:'#808080',textAlign:'left'}}>Bachelors</p>
-              <p className="about-bold" style={{margin:0,fontFamily:'Raleway',fontWeight:600,color:'#ffff',textAlign:'left',marginTop:2}}>SRM Institute of Science and Technology</p>
-              <p className="about-text1"  style={{margin:0,fontFamily:'Raleway',fontWeight:400,color:'#808080',textAlign:'left'}}>2020 - 2024</p>
-              <p className="about-text2"  style={{margin:0,fontFamily:'Raleway',fontWeight:500,color:'#ffff',textAlign:'left',marginTop:8}}>B.Tech CSE</p>
-              <button onClick={handleButtonClick1} style={{width:120,height:38,background:'transparent',borderWidth:0,color:'#ffff',fontWeight:200,fontFamily:'Raleway',textAlign:'left'}}>
+              <p className="about-bold" style={{margin:0,fontFamily:'Raleway',fontWeight:600,color:'#ffff',textAlign:'left',marginTop:12}}>SRM Institute of Science and Technology</p>
+              <p className="about-text1"  style={{margin:0,fontFamily:'Raleway',fontWeight:400,color:'#808080',textAlign:'left',marginTop:12}}>2020 - 2024</p>
+              <p className="about-text2"  style={{margin:0,fontFamily:'Raleway',fontWeight:500,color:'#ffff',textAlign:'left',marginTop:16}}>B.Tech CSE</p>
+              <button onClick={handleButtonClick1} style={{width:120,height:38,background:'transparent',borderWidth:0,color:'#ffff',fontWeight:200,fontFamily:'Raleway',textAlign:'left',fontSize:16}}>
               Go to Website <img src={Arrow} style={{width:12,height:12}}/>
               </button>
 
@@ -50,11 +50,11 @@ const About = () => {
 
               <div className="about-content" style={{}}>
 
-              <p className="about-text1" style={{margin:0,fontFamily:'Raleway',fontWeight:400,color:'#808080',textAlign:'left'}}>Schooling</p>
-              <p className="about-bold" style={{margin:0,fontFamily:'Raleway',fontWeight:600,color:'#ffff',textAlign:'left',marginTop:2}}>Zion Matric. Hr. Sec. School</p>
-              <p className="about-text1"  style={{margin:0,fontFamily:'Raleway',fontWeight:400,color:'#808080',textAlign:'left'}}>2018 - 2020</p>
-              <p className="about-text2"  style={{margin:0,fontFamily:'Raleway',fontWeight:500,color:'#ffff',textAlign:'left',marginTop:8}}>High School</p>
-              <button onClick={handleButtonClick2} style={{width:120,height:38,background:'transparent',borderWidth:0,color:'#ffff',fontWeight:200,fontFamily:'Raleway',textAlign:'left'}}>
+              <p className="about-text1" style={{margin:0,fontFamily:'Raleway',fontWeight:400,color:'#808080',textAlign:'left',marginTop:24}}>Schooling</p>
+              <p className="about-bold" style={{margin:0,fontFamily:'Raleway',fontWeight:600,color:'#ffff',textAlign:'left',marginTop:12}}>Zion Matric. Hr. Sec. School</p>
+              <p className="about-text1"  style={{margin:0,fontFamily:'Raleway',fontWeight:400,color:'#808080',textAlign:'left',marginTop:12}}>2018 - 2020</p>
+              <p className="about-text2"  style={{margin:0,fontFamily:'Raleway',fontWeight:500,color:'#ffff',textAlign:'left',marginTop:16}}>High School</p>
+              <button onClick={handleButtonClick2} style={{width:120,height:38,background:'transparent',borderWidth:0,color:'#ffff',fontWeight:200,fontFamily:'Raleway',textAlign:'left',fontSize:16}}>
               Go to Website <img src={Arrow} style={{width:12,height:12}}/>
               </button>
 
