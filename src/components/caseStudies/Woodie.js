@@ -25,6 +25,7 @@ import QR from '../../assets/QR.svg'
 
 
 
+
 import './casestudies.css'
 import '../../fonts/fonts.css'
 
@@ -34,6 +35,10 @@ import '../../fonts/fonts.css'
  * https://letsbuildui.dev/series/scroll-animations-with-framer-motion/scroll-linked-content-reveal-animation
  */
 export const Woodie = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const bottomToTop = () => {
     window.scrollTo({

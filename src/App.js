@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Landingscreen from './components/Landingscreen';
 // import Woodie from './components/caseStudies/Woodie'
 import './App.css';
@@ -7,14 +7,12 @@ import { Woodie } from './components/caseStudies/Woodie';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route exact path="/" element={<Landingscreen />} />
-        <Route exact path="woodie" element={<Woodie/>} />
-
-        {/* Add more routes as needed */}
-      </Routes>
-    </Router>
+    <BrowserRouter scrollRestoration="auto">
+    <Routes>
+      <Route path="/" element={<Landingscreen />} />
+      <Route path="/woodie" element={<Woodie />} />
+    </Routes>
+  </BrowserRouter>
   );
 }
 
