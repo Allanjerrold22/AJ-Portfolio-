@@ -75,5 +75,57 @@
     font-weight: 800;
     src: url('./Raleway-ExtraBold.ttf') format('truetype');
   }
+
+  @font-face {
+    font-family: 'Play';
+    font-style: Regular;
+    font-weight: 400;
+    src: url('./PlayfairDisplay-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Play';
+    font-style: Medium;
+    font-weight: 500;
+    src: url('./PlayfairDisplay-Medium.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Play';
+    font-style: SemiBold;
+    font-weight: 600;
+    src: url('./PlayfairDisplay-SemiBold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Play';
+    font-style: Bold;
+    font-weight: 700;
+    src: url('./PlayfairDisplay-Bold.ttf') format('truetype');
+  }
   
+  @font-face {
+    font-family: 'Play';
+    font-style: ExtraBold;
+    font-weight: 800;
+    src: url('./PlayfairDisplay-ExtraBold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Play';
+    font-style: Black;
+    font-weight: 900;
+    src: url('./PlayfairDisplay-Black.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    font-style: Bold;
+    font-weight: 800;
+    src: url('./Poppins-Bold.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    font-style: Regular;
+    font-weight: 400;
+    src: url('./Poppins-Regular.ttf') format('truetype');
+  }
+
   

@@ -36,8 +36,8 @@ const Herosection = () => {
 
     <div style={{}}>  
         <AnimatedCursor
-          innerSize={8}
-          outerSize={32}
+          innerSize={6}
+          outerSize={38}
           innerScale={1}
           outerScale={2}
           outerAlpha={0}
@@ -46,7 +46,7 @@ const Herosection = () => {
             backgroundColor: 'var(--cursor-color)'
           }}
           outerStyle={{
-            border: '3px solid var(--cursor-color)'
+            border: '2px solid var(--cursor-color)'
           }}
         />
          <div  style={{ width: "100%",
@@ -81,7 +81,7 @@ const Herosection = () => {
                 <p class="hero-text" style={{ fontFamily: 'Raleway, sans-serif',margin:0,fontWeight:900,color:'#ffff',textAlign:'center',marginTop:16}}>Crafting<br/>Digital Excellence <br/>Together</p> 
                 <p class="hero-subtext"style={{margin:0,fontWeight:400,color:'#656565',textAlign:'center',marginTop:32,paddingRight:18,paddingLeft:18}}>Transforming ideas into extraordinary <br/>digital experiences through captivating UI designs and flawless user experiences.</p> 
            </motion.div>
-              <button style={{width:140,height:50,background:'#BC3E6F',color:'white',borderWidth:0,borderRadius:12,display:'flex',justifyContent:'space-evenly',alignItems:'center',marginTop:32}}>
+              <button style={{width:140,height:50,background:'#BC3E6F',color:'white',borderWidth:0,borderRadius:12,display:'flex',justifyContent:'space-evenly',alignItems:'center',marginTop:32,fontFamily:'Raleway',fontSize:16,fontWeight:500}}>
                 Let's talk 
                 <img src={Arrow} style={{width:14,height:14}}/>
               </button>

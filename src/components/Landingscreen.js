@@ -8,6 +8,13 @@ import Herosection from '../components/Herosection';
 import AnimatedCursor from "react-animated-cursor"
 import About from '../components/About';
 import Experiences from './Experiences';
+import Projects from './Projects'
+import Contact from './Contact';
+
+// import { render } from "react-dom";
+// import { Header } from "./Blogs/Header.tsx";
+// import { CardList } from "./Blogs/CardList.tsx";
+// import './Blogs/styles.css'
 
 import {
   BrowserRouter as Router,
@@ -38,6 +45,26 @@ import {
         <div style={{marginTop:0}}>
         <Experiences/>
         </div>
+
+        <div style={{marginTop:'50%'}}>
+
+        <Projects/>
+
+        </div>
+        <Contact/>
+
+        <div style={{display:'flex',justifyContent:'center'}}>
+
+        
+
+        {/* <div className="container">
+      <Header />
+      <CardList />
+          </div> */}
+
+          </div>
+        
+        
         
         
         
