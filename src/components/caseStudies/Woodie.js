@@ -407,7 +407,12 @@ const topShadowValue = useTransform(
           </div>
         </div>
       </div>
-      <div className="div3" />
+      <div className="div3">
+      <p className="about-phrase" style={{paddingRight:20,paddingLeft:20}}>Thank you </p>
+
+
+
+        </div>
          
     
 

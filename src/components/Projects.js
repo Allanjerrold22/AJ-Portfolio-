@@ -9,6 +9,17 @@ import { useNavigate } from "react-router-dom";
 
 
 const Projects = () => {
+    const handleButtonClick4 = () => {
+        window.location.href = 'https://puriszerox.com/'; 
+      };
+
+      const handleButtonClick5 = () => {
+        window.location.href = 'https://www.figma.com/file/mqwxFaIxtRxZ74cXcORy4w/Roommate?type=design&node-id=1%3A2&mode=design&t=2j1zNVysydd9iG2Y-1'; 
+      };
+
+      const handleButtonClick6=()=>{
+        window.location.href='https://biodiversity.srmist.edu.in/'
+      }
 
     let navigate = useNavigate();
 
@@ -20,11 +31,11 @@ const Projects = () => {
             </div>
             <div style={{marginTop:12,marginLeft:20,marginRight:20}}>
             <div style={{display:'flex',justifyContent:'space-between',alignItems:'center'}}> 
-            <p style={{fontSize:18,color:'#808080',fontFamily:'Raleway',fontWeight:400}}>Projects</p>
+            <p style={{fontSize:18,color:'#808080',fontFamily:'Raleway',fontWeight:400}}>Casestudies</p>
             <div style={{display:'flex',justifyContent:'space-evenly',alignItems:'center'}}>
               <button className='text-btn'>Woodie</button>
               <p style={{color:'#808080',paddingRight:6,paddingLeft:6}}>/</p>
-              <button className='text-btn'>Emotional Intelligence</button>
+              {/* <button className='text-btn'>Emotional Intelligence</button> */}
             </div>
             </div>
             </div>
@@ -38,7 +49,7 @@ const Projects = () => {
                     <p style={{margin:0,color:'white',fontFamily:'Raleway',fontWeight:'800',fontSize:20,marginTop:16}}>Woodie</p>
                     <p style={{margin:0,color:'#808080',fontFamily:'Raleway',fontWeight:'500',fontSize:16,marginTop:12}}>Web Application that deigitalises the Greeneries of SRM University using QR scans </p>
                     <div className="view-btn" style={{display:'flex',justifyContent:'space-between',alignItems:'center',marginTop:16}}>
-                        <button  style={{width:120,height:38,background:'transparent',borderWidth:0,color:'#808080',fontWeight:400,fontFamily:'Raleway',textAlign:'left',fontSize:16,textDecoration:'underline'}}>
+                        <button onClick={handleButtonClick6} style={{width:120,height:38,background:'transparent',borderWidth:0,color:'#808080',fontWeight:400,fontFamily:'Raleway',textAlign:'left',fontSize:16,textDecoration:'underline'}}>
                         Visit site<img src={Arrow} style={{width:12,height:12,marginLeft:8}}/>
                         </button>
                         <button  onClick={() => {
@@ -53,12 +64,12 @@ const Projects = () => {
                     <p style={{margin:0,color:'white',fontFamily:'Raleway',fontWeight:'800',fontSize:20,marginTop:16}}>Roomate</p>
                     <p style={{margin:0,color:'#808080',fontFamily:'Raleway',fontWeight:'500',fontSize:16,marginTop:12}}>Web Application that deigitalises the Greeneries of SRM University using QR scans </p>
                     <div className="view-btn" style={{display:'flex',justifyContent:'space-between',alignItems:'center',marginTop:16}}>
-                        <button  style={{width:120,height:38,background:'transparent',borderWidth:0,color:'#808080',fontWeight:400,fontFamily:'Raleway',textAlign:'left',fontSize:16,textDecoration:'underline'}}>
+                        <button onClick={handleButtonClick5}  style={{width:120,height:38,background:'transparent',borderWidth:0,color:'#808080',fontWeight:400,fontFamily:'Raleway',textAlign:'left',fontSize:16,textDecoration:'underline'}}>
                         Visit site<img src={Arrow} style={{width:12,height:12,marginLeft:8}}/>
                         </button>
-                        <button  style={{width:120,height:38,background:'#656565',borderWidth:0,color:'white',fontWeight:400,fontFamily:'Raleway',textAlign:'left',fontSize:16,width:152,borderRadius:8,display:'flex',justifyContent:'center',alignItems:'center'}}>
+                        {/* <button  style={{width:120,height:38,background:'#656565',borderWidth:0,color:'white',fontWeight:400,fontFamily:'Raleway',textAlign:'left',fontSize:16,width:152,borderRadius:8,display:'flex',justifyContent:'center',alignItems:'center'}}>
                         View Case study<img src={Arrow} style={{width:12,height:12,marginLeft:8}}/>
-                        </button>
+                        </button> */}
                     </div>
                 </div>
 
@@ -67,16 +78,16 @@ const Projects = () => {
                     <p style={{margin:0,color:'white',fontFamily:'Raleway',fontWeight:'800',fontSize:20,marginTop:16}}>Puris ZeroX</p>
                     <p style={{margin:0,color:'#808080',fontFamily:'Raleway',fontWeight:'500',fontSize:16,marginTop:12}}>Web Application that deigitalises the Greeneries of SRM University using QR scans </p>
                     <div className="view-btn" style={{display:'flex',justifyContent:'space-between',alignItems:'center',marginTop:16}}>
-                        <button  style={{width:120,height:38,background:'transparent',borderWidth:0,color:'#808080',fontWeight:400,fontFamily:'Raleway',textAlign:'left',fontSize:16,textDecoration:'underline'}}>
+                        <button onClick={handleButtonClick4}  style={{width:120,height:38,background:'transparent',borderWidth:0,color:'#808080',fontWeight:400,fontFamily:'Raleway',textAlign:'left',fontSize:16,textDecoration:'underline'}}>
                         Visit site<img src={Arrow} style={{width:12,height:12,marginLeft:8}}/>
                         </button>
-                        <button  style={{width:120,height:38,background:'#656565',borderWidth:0,color:'white',fontWeight:400,fontFamily:'Raleway',textAlign:'left',fontSize:16,width:152,borderRadius:8,display:'flex',justifyContent:'center',alignItems:'center'}}>
+                        {/* <button  style={{width:120,height:38,background:'#656565',borderWidth:0,color:'white',fontWeight:400,fontFamily:'Raleway',textAlign:'left',fontSize:16,width:152,borderRadius:8,display:'flex',justifyContent:'center',alignItems:'center'}}>
                         View Case study<img src={Arrow} style={{width:12,height:12,marginLeft:8}}/>
-                        </button>
+                        </button> */}
                     </div>
                 </div>
 
-                <div className="project-card" style={{width:360,height:426,marginTop:50}}>
+                {/* <div className="project-card" style={{width:360,height:426,marginTop:50}}>
                     <img src={Woodie} style={{width:360,height:280,objectFit:'cover',borderRadius:12}}/>
                     <p style={{margin:0,color:'white',fontFamily:'Raleway',fontWeight:'800',fontSize:20,marginTop:16}}>Samsung Emotional Intelligence</p>
                     <p style={{margin:0,color:'#808080',fontFamily:'Raleway',fontWeight:'500',fontSize:16,marginTop:12}}>Web Application that deigitalises the Greeneries of SRM University using QR scans </p>
@@ -88,7 +99,7 @@ const Projects = () => {
                         View Case study<img src={Arrow} style={{width:12,height:12,marginLeft:8}}/>
                         </button>
                     </div>
-                </div>
+                </div> */}
 
 
 
